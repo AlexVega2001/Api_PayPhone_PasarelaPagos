@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtvCarritoEE"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#009c03"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:text="@string/txt_title"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:drawableStartCompat="@drawable/ic_logo"
+        app:drawableEndCompat="@drawable/ic_logo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvEquiposElec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="#d4d1cb" />
+
+</RelativeLayout>

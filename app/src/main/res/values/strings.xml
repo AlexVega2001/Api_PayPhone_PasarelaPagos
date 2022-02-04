@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Api_PayPhone_PasarelaPagos</string>
+    <string name="txt_title">Alexander Store</string>
+    <string name="img_description">Imagen_Equipo</string>
+    <string name="txt_name">Nombre_Equipo</string>
+    <string name="txt_precio">Precio_Equipo</string>
+    <string name="btn_comprar">BUY</string>
+</resources>
